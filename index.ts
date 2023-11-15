@@ -1,4 +1,4 @@
-const convertHTMLToPDF = require("pdf-puppeteer");
+import convertHTMLToPDF from "pdf-puppeteer";
 
 const html = `<!DOCTYPE html>
 <html lang="en">
